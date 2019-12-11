@@ -1,4 +1,13 @@
-# THIS PROJECT IS NO LONGER MAINTAINED
+# This Project is forked from https://github.com/cssivision/react-native-qrcode
+
+For handle some issue
+- WebView is deprecated rn version >= 0.60
+- QRCode is very small size in canvas
+
+The part that I modified is very small.
+
+---
+Below this line, Original Docs
 
 # react-native-qrcode
 A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code), not only support English.
@@ -70,7 +79,7 @@ module.exports = HelloWorld;
 
 prop      | type                 | default value
 ----------|----------------------|--------------
-`value`   | `string`             | `http://facebook.github.io/react-native/`
+`value`   | `string`             | `https://www.google.com`
 `size`    | `number`             | `128`
 `bgColor` | `string` (CSS color) | `"#000"`
 `fgColor` | `string` (CSS color) | `"#FFF"`
