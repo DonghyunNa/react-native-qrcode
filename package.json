@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cssivision/react-native-qrcode.git"
+    "url": "https://github.com/DonghyunNa/react-native-qrcode.git"
   },
   "keywords": [
     "react-native",
